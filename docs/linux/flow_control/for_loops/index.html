@@ -26,7 +26,7 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="For Loops"/>
 <meta name="twitter:description" content="How to write for loop statements strings using the Linux command line."/>
-<meta name="generator" content="Hugo 0.54.0" /> 
+<meta name="generator" content="Hugo 0.55.2" /> 
     
     
 <script type="application/ld+json">
@@ -34,8 +34,8 @@
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "headline": "For Loops",
-  "url": "https://chrisalbon.com/linux/flow_control/for_loops/",
-  "wordCount": "106",
+  "url": "https:\/\/chrisalbon.com\/linux\/flow_control\/for_loops\/",
+  "wordCount": "108",
   "datePublished": "2018-06-17T00:00:00-07:00",
   "dateModified": "2018-06-17T00:00:00-07:00",
   "author": {
@@ -157,9 +157,9 @@ MathJax.Hub.Config({
 
 <p>In plain English: For each name in Lucien, Maurice, Renald, Johnson, and Alfred, print the name.</p>
 
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">for name in Lucien Maurice Renald Johnson Alfred; do<span class="err">
-</span><span class="err"></span>    echo $name<span class="err">
-</span><span class="err"></span>done</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">for name in Lucien Maurice Renald Johnson Alfred; do
+    echo $name
+done</code></pre></div>
 
 <pre><code>Lucien
 Maurice
@@ -174,9 +174,9 @@ Alfred
 
 <p>In plain English: Starting with <code>i</code> being 0, (<code>i=0</code>), as long as <code>i</code> is less than 10 (<code>i&lt;10</code>), keep returning <code>i</code>, adding one to <code>i</code> (<code>i=i+1</code>) at the end of each loop.</p>
 
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">for (( i=0; i&lt;10; i=i+1 )); do<span class="err">
-</span><span class="err"></span>        echo $i<span class="err">
-</span><span class="err"></span>done</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">for (( i=0; i&lt;10; i=i+1 )); do
+        echo $i
+done</code></pre></div>
 
 <pre><code>0
 1

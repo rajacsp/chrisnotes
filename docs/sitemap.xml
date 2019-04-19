@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chrisalbon.com/</loc>
+    <lastmod>2018-12-16T11:53:49-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chrisalbon.com/python/object_oriented/create_a_class/</loc>
     <lastmod>2018-12-16T11:53:49-07:00</lastmod>
   </url>
@@ -2940,12 +2946,6 @@
   <url>
     <loc>https://chrisalbon.com/articles/health_systems/</loc>
     <lastmod>2011-12-20T11:53:49-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chrisalbon.com/</loc>
-    <lastmod>2018-12-16T11:53:49-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

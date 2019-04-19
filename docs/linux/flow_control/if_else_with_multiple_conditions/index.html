@@ -26,7 +26,7 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="If Else With Multiple Conditions"/>
 <meta name="twitter:description" content="How to write if else statements for strings using the Linux command line."/>
-<meta name="generator" content="Hugo 0.54.0" /> 
+<meta name="generator" content="Hugo 0.55.2" /> 
     
     
 <script type="application/ld+json">
@@ -34,8 +34,8 @@
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "headline": "If Else With Multiple Conditions",
-  "url": "https://chrisalbon.com/linux/flow_control/if_else_with_multiple_conditions/",
-  "wordCount": "102",
+  "url": "https:\/\/chrisalbon.com\/linux\/flow_control\/if_else_with_multiple_conditions\/",
+  "wordCount": "106",
   "datePublished": "2018-06-17T00:00:00-07:00",
   "dateModified": "2018-06-17T00:00:00-07:00",
   "author": {
@@ -162,10 +162,10 @@ MathJax.Hub.Config({
 <p>To combine conditional tests with &ldquo;and&rdquo; use <code>&amp;&amp;</code>.</p>
 
 <div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">if (( &#34;$age&#34;<span class="k"> &gt; </span><span class="ge">17  &amp;&amp; &#34;$age&#34; &lt; 30 )); then
-</span><span class="ge"></span>    echo &#34;Greater than 17 and less than 30&#34;<span class="err">
-</span><span class="err"></span>else<span class="err">
-</span><span class="err"></span>    echo &#34;Not greater than 17 and less than 30&#34;<span class="err">
-</span><span class="err"></span>fi</code></pre></div>
+</span><span class="ge"></span>    echo &#34;Greater than 17 and less than 30&#34;
+else
+    echo &#34;Not greater than 17 and less than 30&#34;
+fi</code></pre></div>
 
 <pre><code>Greater than 17 and less than 30
 </code></pre>
@@ -175,10 +175,10 @@ MathJax.Hub.Config({
 <p>To combine conditional tests with &ldquo;or&rdquo; use <code>||</code>.</p>
 
 <div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">if (( &#34;$age&#34;<span class="k"> &gt; </span><span class="ge">17 || &#34;$age&#34; &lt; 30)); then
-</span><span class="ge"></span>    echo &#34;Greater than 17, or less than 30&#34;<span class="err">
-</span><span class="err"></span>else<span class="err">
-</span><span class="err"></span>    echo &#34;Not greater than 17 or less than 30&#34;<span class="err">
-</span><span class="err"></span>fi</code></pre></div>
+</span><span class="ge"></span>    echo &#34;Greater than 17, or less than 30&#34;
+else
+    echo &#34;Not greater than 17 or less than 30&#34;
+fi</code></pre></div>
 
 <pre><code>Greater than 17 or less than 30
 </code></pre>

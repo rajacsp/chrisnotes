@@ -53,7 +53,7 @@
       <pubDate>Mon, 16 Jul 2018 00:00:00 -0700</pubDate>
       
       <guid>https://chrisalbon.com/linux/text/add_columns_to_text/</guid>
-      <description>Create A File With Comma Separated Text echo &amp;#34;chris, 34, male&amp;#34; &amp;gt;&amp;gt; staff.txtecho &amp;#34;sarah, 22, female&amp;#34; &amp;gt;&amp;gt; staff.txtecho &amp;#34;Bob, 59, male&amp;#34; &amp;gt;&amp;gt; staff.txt View File cat staff.txt chris, 34, male sarah, 22, female Bob, 59, male  Extract Text By Breaking Into Columns And Save To File cut the text in staff.txt that is separated by commas (-d &#39;,&#39;) into columns, then take the second (-f 2) column, and finally save to ages.</description>
+      <description>Create A File With Comma Separated Text echo &amp;#34;chris, 34, male&amp;#34; &amp;gt;&amp;gt; staff.txt echo &amp;#34;sarah, 22, female&amp;#34; &amp;gt;&amp;gt; staff.txt echo &amp;#34;Bob, 59, male&amp;#34; &amp;gt;&amp;gt; staff.txt View File cat staff.txt chris, 34, male sarah, 22, female Bob, 59, male  Extract Text By Breaking Into Columns And Save To File cut the text in staff.txt that is separated by commas (-d &#39;,&#39;) into columns, then take the second (-f 2) column, and finally save to ages.</description>
     </item>
     
     <item>
@@ -73,7 +73,7 @@ Make File touch file.txt Make Directory mkdir example View Directory Contents Di
       
       <guid>https://chrisalbon.com/linux/text/count_unique_rows/</guid>
       <description>Create Example File With List Of Names Notice that we have duplicated rows
-echo &amp;#39;Luca Gartside&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Reule Smyth&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Uli Pinetotem&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Uli Pinetotem&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Uli Pinetotem&amp;#39; &amp;gt;&amp;gt; adventurers.txt View File cat adventurers.txt Luca Gartside Reule Smyth Spencer Smit Spencer Smit Spencer Smit Uli Pinetotem Uli Pinetotem Uli Pinetotem  Get Unique Rows cat adventurers.</description>
+echo &amp;#39;Luca Gartside&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Reule Smyth&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Uli Pinetotem&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Uli Pinetotem&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Uli Pinetotem&amp;#39; &amp;gt;&amp;gt; adventurers.txt View File cat adventurers.txt Luca Gartside Reule Smyth Spencer Smit Spencer Smit Spencer Smit Uli Pinetotem Uli Pinetotem Uli Pinetotem  Get Unique Rows cat adventurers.</description>
     </item>
     
     <item>
@@ -83,7 +83,7 @@ echo &amp;#39;Luca Gartside&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#
       
       <guid>https://chrisalbon.com/linux/basics/delete_files_and_directories/</guid>
       <description>The rm (remove) command is used to delete files and folders in Linux.
-Create Files touch sales.csvtouch config.jsontouch README.mdtouch documentation.htmltouch sales.html Create Subdirectory mkdir sales_reports Create File In Subdirectory touch sales_reports/report.html View Current Directory ls -l total 4 -rw-rw-r-- 1 chris chris 0 Jul 24 17:01 config.json -rw-rw-r-- 1 chris chris 0 Jul 24 17:01 documentation.html -rw-rw-r-- 1 chris chris 0 Jul 24 17:01 README.md -rw-rw-r-- 1 chris chris 0 Jul 24 17:01 sales.</description>
+Create Files touch sales.csv touch config.json touch README.md touch documentation.html touch sales.html Create Subdirectory mkdir sales_reports Create File In Subdirectory touch sales_reports/report.html View Current Directory ls -l total 4 -rw-rw-r-- 1 chris chris 0 Jul 24 17:01 config.json -rw-rw-r-- 1 chris chris 0 Jul 24 17:01 documentation.html -rw-rw-r-- 1 chris chris 0 Jul 24 17:01 README.md -rw-rw-r-- 1 chris chris 0 Jul 24 17:01 sales.</description>
     </item>
     
     <item>
@@ -103,7 +103,7 @@ Create Example Files touch devops.txt hr.txt marketing.txt operations.txt procur
       
       <guid>https://chrisalbon.com/linux/text/extract_text/</guid>
       <description>cut is a good cool to extract text that follows some schema such as tab or comma delimited.
-Create A File With Comma Separated Text echo &amp;#34;chris, 34, male&amp;#34; &amp;gt;&amp;gt; staff.txtecho &amp;#34;sarah, 22, female&amp;#34; &amp;gt;&amp;gt; staff.txtecho &amp;#34;Bob, 59, male&amp;#34; &amp;gt;&amp;gt; staff.txt View File cat staff.txt chris, 34, male sarah, 22, female Bob, 59, male  Extract Text By Breaking Into Columns cut the text in staff.txt that is separated by commas (-d &#39;,&#39;) into columns, then take the second (-f 2) column.</description>
+Create A File With Comma Separated Text echo &amp;#34;chris, 34, male&amp;#34; &amp;gt;&amp;gt; staff.txt echo &amp;#34;sarah, 22, female&amp;#34; &amp;gt;&amp;gt; staff.txt echo &amp;#34;Bob, 59, male&amp;#34; &amp;gt;&amp;gt; staff.txt View File cat staff.txt chris, 34, male sarah, 22, female Bob, 59, male  Extract Text By Breaking Into Columns cut the text in staff.txt that is separated by commas (-d &#39;,&#39;) into columns, then take the second (-f 2) column.</description>
     </item>
     
     <item>
@@ -112,7 +112,7 @@ Create A File With Comma Separated Text echo &amp;#34;chris, 34, male&amp;#34; &
       <pubDate>Mon, 16 Jul 2018 00:00:00 -0700</pubDate>
       
       <guid>https://chrisalbon.com/linux/text/find_and_replace/</guid>
-      <description> Create Example File With List Of Adventurers echo &amp;#39;Luca Gartside&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Reule Smyth&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txt View Original File $ cat adventurers.txt Luca Gartside Reule Smyth Spencer Smit  Search And Replace Here we use the streaming edit (sed) command to replace Spencer Smit with Matthew Aldworth in the file adventurers.txt
+      <description> Create Example File With List Of Adventurers echo &amp;#39;Luca Gartside&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Reule Smyth&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txt View Original File $ cat adventurers.txt Luca Gartside Reule Smyth Spencer Smit  Search And Replace Here we use the streaming edit (sed) command to replace Spencer Smit with Matthew Aldworth in the file adventurers.txt
 $ sed &amp;#34;s/Spencer Smit/Matthew Aldworth/&amp;#34; adventurers.txt Luca Gartside Reule Smyth Matthew Aldworth  </description>
     </item>
     
@@ -364,7 +364,7 @@ Check System&amp;rsquo;s Current Time date Tue Jul 17 10:07:27 PDT 2018  Check S
       
       <guid>https://chrisalbon.com/linux/text/comparing_text_files/</guid>
       <description>The diff command in Linux will show us the where the lines in text files differ and ignore lines that are the same.
-Create Text File 1 echo &amp;#34;Khaydarbi Melikov is a foot soldier.&amp;#34; &amp;gt;&amp;gt; regiment_version1.txtecho &amp;#34;Khaydarbi Melikov is a member of the the Maroon Martyrs regiment&amp;#34; &amp;gt;&amp;gt; regiment_version1.txt Create Text File 2 echo &amp;#34;Khaydarbi Melikov is a foot soldier.&amp;#34; &amp;gt;&amp;gt; regiment_version2.txtecho &amp;#34;Khaydarbi Melikov is a member of the Reserve regiment&amp;#34; &amp;gt;&amp;gt; regiment_version2.</description>
+Create Text File 1 echo &amp;#34;Khaydarbi Melikov is a foot soldier.&amp;#34; &amp;gt;&amp;gt; regiment_version1.txt echo &amp;#34;Khaydarbi Melikov is a member of the the Maroon Martyrs regiment&amp;#34; &amp;gt;&amp;gt; regiment_version1.txt Create Text File 2 echo &amp;#34;Khaydarbi Melikov is a foot soldier.&amp;#34; &amp;gt;&amp;gt; regiment_version2.txt echo &amp;#34;Khaydarbi Melikov is a member of the Reserve regiment&amp;#34; &amp;gt;&amp;gt; regiment_version2.</description>
     </item>
     
     <item>
@@ -789,7 +789,7 @@ Go To Program&amp;rsquo;s Location cd /home/chris/anaconda3/bin/ List Contents O
       <pubDate>Sun, 17 Jun 2018 00:00:00 -0700</pubDate>
       
       <guid>https://chrisalbon.com/linux/search/find_symbolic_links/</guid>
-      <description>Make Files, Directories, And A Symbolic Link touch sales.txt, marketing.txt, data_science.csv, product.html; mkdir sales marketingln -nsf sales.txt marketing.txt View Files And Directories, And Symbolic Link ls -l total 8 -rw-rw-r-- 1 chris chris 0 Jul 29 21:21 data_science.csv, drwxrwxr-x 2 chris chris 4096 Jul 29 21:21 marketing lrwxrwxrwx 1 chris chris 9 Jul 29 21:58 marketing.txt -&amp;gt; sales.txt -rw-rw-r-- 1 chris chris 0 Jul 29 21:21 marketing.txt, -rw-rw-r-- 1 chris chris 0 Jul 29 21:21 product.</description>
+      <description>Make Files, Directories, And A Symbolic Link touch sales.txt, marketing.txt, data_science.csv, product.html; mkdir sales marketing ln -nsf sales.txt marketing.txt View Files And Directories, And Symbolic Link ls -l total 8 -rw-rw-r-- 1 chris chris 0 Jul 29 21:21 data_science.csv, drwxrwxr-x 2 chris chris 4096 Jul 29 21:21 marketing lrwxrwxrwx 1 chris chris 9 Jul 29 21:58 marketing.txt -&amp;gt; sales.txt -rw-rw-r-- 1 chris chris 0 Jul 29 21:21 marketing.txt, -rw-rw-r-- 1 chris chris 0 Jul 29 21:21 product.</description>
     </item>
     
     <item>
@@ -817,7 +817,7 @@ Go To Program&amp;rsquo;s Location cd /home/chris/anaconda3/bin/ List Contents O
       
       <guid>https://chrisalbon.com/linux/flow_control/for_loops/</guid>
       <description>Create For Loop In plain English: For each name in Lucien, Maurice, Renald, Johnson, and Alfred, print the name.
-for name in Lucien Maurice Renald Johnson Alfred; do echo $namedone Lucien Maurice Renald Johnson Alfred  Create C Style For Loop Alternatively, we can use a style of for loop seen in the programming language C.
+for name in Lucien Maurice Renald Johnson Alfred; do echo $name done Lucien Maurice Renald Johnson Alfred  Create C Style For Loop Alternatively, we can use a style of for loop seen in the programming language C.
 In plain English: Starting with i being 0, (i=0), as long as i is less than 10 (i&amp;lt;10), keep returning i, adding one to i (i=i+1) at the end of each loop.</description>
     </item>
     
@@ -875,7 +875,7 @@ Quickly Describe A Command whatis mkdir mkdir (1) - make directories mkdir (2) -
       
       <guid>https://chrisalbon.com/linux/flow_control/if_else_for_integers/</guid>
       <description> Create Variable age=23 Create If Else Statement The code below in plain English: If the variable age is greater than 17, then return &amp;ldquo;Adult&amp;rdquo; otherwise return &amp;ldquo;Child&amp;rdquo;.
-if (( &amp;#34;$age&amp;#34;&amp;gt; 17 )); then  echo &amp;#34;Adult&amp;#34;else echo &amp;#34;Child&amp;#34;fi Adult  </description>
+if (( &amp;#34;$age&amp;#34;&amp;gt; 17 )); then  echo &amp;#34;Adult&amp;#34; else echo &amp;#34;Child&amp;#34; fi Adult  </description>
     </item>
     
     <item>
@@ -885,7 +885,7 @@ if (( &amp;#34;$age&amp;#34;&amp;gt; 17 )); then  echo &amp;#34;Adult&amp;#34;el
       
       <guid>https://chrisalbon.com/linux/flow_control/if_else_for_strings/</guid>
       <description> While you can often use [[ ]] for integers, (( )) is specifically designed to work with integers and provides a lot more functionality.
-Create Variable name=&amp;#34;Ralph Holmes&amp;#34; Create If Else Statement if [[ &amp;#34;$name&amp;#34; == &amp;#34;Ralph Holmes&amp;#34; ]]; then echo &amp;#34;It is Ralph.&amp;#34;else echo &amp;#34;It is not Ralph&amp;#34;fi It is Ralph.  </description>
+Create Variable name=&amp;#34;Ralph Holmes&amp;#34; Create If Else Statement if [[ &amp;#34;$name&amp;#34; == &amp;#34;Ralph Holmes&amp;#34; ]]; then echo &amp;#34;It is Ralph.&amp;#34; else echo &amp;#34;It is not Ralph&amp;#34; fi It is Ralph.  </description>
     </item>
     
     <item>
@@ -895,7 +895,7 @@ Create Variable name=&amp;#34;Ralph Holmes&amp;#34; Create If Else Statement if 
       
       <guid>https://chrisalbon.com/linux/flow_control/if_else_with_multiple_conditions/</guid>
       <description>Create Variable age=23 Check Greater Than 17 And Less Than 30 To combine conditional tests with &amp;ldquo;and&amp;rdquo; use &amp;amp;&amp;amp;.
-if (( &amp;#34;$age&amp;#34;&amp;gt; 17 &amp;amp;&amp;amp; &amp;#34;$age&amp;#34; &amp;lt; 30 )); then  echo &amp;#34;Greater than 17 and less than 30&amp;#34;else echo &amp;#34;Not greater than 17 and less than 30&amp;#34;fi Greater than 17 and less than 30  Check Greater Than 17 Or Less Than 20 To combine conditional tests with &amp;ldquo;or&amp;rdquo; use ||.</description>
+if (( &amp;#34;$age&amp;#34;&amp;gt; 17 &amp;amp;&amp;amp; &amp;#34;$age&amp;#34; &amp;lt; 30 )); then  echo &amp;#34;Greater than 17 and less than 30&amp;#34; else echo &amp;#34;Not greater than 17 and less than 30&amp;#34; fi Greater than 17 and less than 30  Check Greater Than 17 Or Less Than 20 To combine conditional tests with &amp;ldquo;or&amp;rdquo; use ||.</description>
     </item>
     
     <item>
@@ -931,7 +931,7 @@ if (( &amp;#34;$age&amp;#34;&amp;gt; 17 &amp;amp;&amp;amp; &amp;#34;$age&amp;#34
       <pubDate>Sun, 17 Jun 2018 00:00:00 -0700</pubDate>
       
       <guid>https://chrisalbon.com/linux/text/join_and_sort_text/</guid>
-      <description> Make Three Files, Each With List Of Fruit echo &amp;#34;Apple&amp;#34; &amp;gt;&amp;gt; fruit_1.txt; echo &amp;#34;Banana&amp;#34; &amp;gt;&amp;gt; fruit_1.txt; echo &amp;#34;Orange&amp;#34; &amp;gt;&amp;gt; fruit_1.txtecho &amp;#34;Tangerine&amp;#34; &amp;gt;&amp;gt; fruit_2.txt; echo &amp;#34;Grape&amp;#34; &amp;gt;&amp;gt; fruit_2.txt; echo &amp;#34;Nectarine&amp;#34; &amp;gt;&amp;gt; fruit_2.txtecho &amp;#34;Strawberry&amp;#34; &amp;gt;&amp;gt; fruit_3.txt; echo &amp;#34;Blueberry&amp;#34; &amp;gt;&amp;gt; fruit_3.txt; echo &amp;#34;Mango&amp;#34; &amp;gt;&amp;gt; fruit_3.txt Merge And Sort Into New File sort fruit_1.txt fruit_2.txt fruit_3.txt &amp;gt; fruit.txt View Contents Of New File cat fruit.txt Apple Banana Blueberry Grape Mango Nectarine Orange Strawberry Tangerine  </description>
+      <description> Make Three Files, Each With List Of Fruit echo &amp;#34;Apple&amp;#34; &amp;gt;&amp;gt; fruit_1.txt; echo &amp;#34;Banana&amp;#34; &amp;gt;&amp;gt; fruit_1.txt; echo &amp;#34;Orange&amp;#34; &amp;gt;&amp;gt; fruit_1.txt echo &amp;#34;Tangerine&amp;#34; &amp;gt;&amp;gt; fruit_2.txt; echo &amp;#34;Grape&amp;#34; &amp;gt;&amp;gt; fruit_2.txt; echo &amp;#34;Nectarine&amp;#34; &amp;gt;&amp;gt; fruit_2.txt echo &amp;#34;Strawberry&amp;#34; &amp;gt;&amp;gt; fruit_3.txt; echo &amp;#34;Blueberry&amp;#34; &amp;gt;&amp;gt; fruit_3.txt; echo &amp;#34;Mango&amp;#34; &amp;gt;&amp;gt; fruit_3.txt Merge And Sort Into New File sort fruit_1.txt fruit_2.txt fruit_3.txt &amp;gt; fruit.txt View Contents Of New File cat fruit.txt Apple Banana Blueberry Grape Mango Nectarine Orange Strawberry Tangerine  </description>
     </item>
     
     <item>
@@ -941,7 +941,7 @@ if (( &amp;#34;$age&amp;#34;&amp;gt; 17 &amp;amp;&amp;amp; &amp;#34;$age&amp;#34
       
       <guid>https://chrisalbon.com/linux/text/join_columns/</guid>
       <description>The Linux command join operates similar to the join command in SQL, merging two sets of data along a common key.
-Make File With Soldier Names And Soldier Age Data echo &amp;#34;Steve Case, 23&amp;#34; &amp;gt;&amp;gt; soldiers.txtecho &amp;#34;Mary Mills, 35&amp;#34; &amp;gt;&amp;gt; soldiers.txtecho &amp;#34;Bob Dosjki, 22&amp;#34; &amp;gt;&amp;gt; soldiers.txtecho &amp;#34;Jack Doi, 45&amp;#34; &amp;gt;&amp;gt; soldiers.txtecho &amp;#34;Poe Domi, 23&amp;#34; &amp;gt;&amp;gt; soldiers.txt Make File With Soldier Names And Regiment Names echo &amp;#34;Steve Case, The Hell Hosts&amp;#34; &amp;gt;&amp;gt; regiments.</description>
+Make File With Soldier Names And Soldier Age Data echo &amp;#34;Steve Case, 23&amp;#34; &amp;gt;&amp;gt; soldiers.txt echo &amp;#34;Mary Mills, 35&amp;#34; &amp;gt;&amp;gt; soldiers.txt echo &amp;#34;Bob Dosjki, 22&amp;#34; &amp;gt;&amp;gt; soldiers.txt echo &amp;#34;Jack Doi, 45&amp;#34; &amp;gt;&amp;gt; soldiers.txt echo &amp;#34;Poe Domi, 23&amp;#34; &amp;gt;&amp;gt; soldiers.txt Make File With Soldier Names And Regiment Names echo &amp;#34;Steve Case, The Hell Hosts&amp;#34; &amp;gt;&amp;gt; regiments.</description>
     </item>
     
     <item>
@@ -1206,7 +1206,7 @@ Create Table -- Create table called adventurers CREATE TABLE adventurers ( -- st
       
       <guid>https://chrisalbon.com/linux/inputs_and_outputs/save_output_to_file_in_middle_of_command_chain/</guid>
       <description>The tee command creates a T-junction in a command pipeline, both saving the standard output of the previous command to a file and passing the standard output onward down the pipeline. It is often useful when we want to see the data at intermediate steps in a command pipeline without interrupting it.
-Create Example File With List Of File Names echo &amp;#39;data_science.txt&amp;#39; &amp;gt;&amp;gt; files.txtecho &amp;#39;data_science.html&amp;#39; &amp;gt;&amp;gt; files.txtecho &amp;#39;data_science.csv&amp;#39; &amp;gt;&amp;gt; files.</description>
+Create Example File With List Of File Names echo &amp;#39;data_science.txt&amp;#39; &amp;gt;&amp;gt; files.txt echo &amp;#39;data_science.html&amp;#39; &amp;gt;&amp;gt; files.txt echo &amp;#39;data_science.</description>
     </item>
     
     <item>
@@ -1244,7 +1244,7 @@ Search Filenames In System locate bashrc /etc/bash.bashrc /etc/skel/.bashrc /hom
       <pubDate>Sun, 17 Jun 2018 00:00:00 -0700</pubDate>
       
       <guid>https://chrisalbon.com/linux/search/search_contents_of_a_file/</guid>
-      <description> Make File With Some Content echo &amp;#34;There were 24 sales in March.&amp;#34; &amp;gt;&amp;gt; sales.txtecho &amp;#34;We have 90 employees.&amp;#34; &amp;gt;&amp;gt; employees.txt Search The File For Some String grep March sales.txt There were 24 sales in March.  Search The File For Some String, Return With Line Numbers grep -n March sales.txt 1:There were 24 sales in March.  Get Filenames That Match Search grep -l March sales.txt sales.txt  </description>
+      <description> Make File With Some Content echo &amp;#34;There were 24 sales in March.&amp;#34; &amp;gt;&amp;gt; sales.txt echo &amp;#34;We have 90 employees.&amp;#34; &amp;gt;&amp;gt; employees.txt Search The File For Some String grep March sales.txt There were 24 sales in March.  Search The File For Some String, Return With Line Numbers grep -n March sales.txt 1:There were 24 sales in March.  Get Filenames That Match Search grep -l March sales.txt sales.txt  </description>
     </item>
     
     <item>
@@ -1274,7 +1274,7 @@ Check Logged In Users who ubuntu pts/0 2018-07-17 09:55 (ip68-3-23-73.ph.ph.box.
       
       <guid>https://chrisalbon.com/linux/basics/select_files_based_on_filename/</guid>
       <description>Often we want to select files based on their file name or file extension. In Linux, we can use wildcard characters to accomplish this.
-Create Some Files touch hello_world.txttouch HELLO_world.txttouch HELLO_world.mdtouch hello_america.txttouch goodbye_america.txttouch goodbye_america_2.txt View Directory Contents ls goodbye_america_2.txt goodbye_america.txt hello_america.txt hello_world.txt HELLO_world.txt  Select Files Containing &amp;ldquo;Hello&amp;rdquo; ls hello* hello_america.txt hello_world.txt  Select Files Starting With &amp;ldquo;g&amp;rdquo; or &amp;ldquo;i&amp;rdquo; ls [gi]* goodbye_america_2.txt goodbye_america.txt  Select All Markdown Files ls *.</description>
+Create Some Files touch hello_world.txt touch HELLO_world.txt touch HELLO_world.md touch hello_america.txt touch goodbye_america.txt touch goodbye_america_2.txt View Directory Contents ls goodbye_america_2.txt goodbye_america.txt hello_america.txt hello_world.txt HELLO_world.txt  Select Files Containing &amp;ldquo;Hello&amp;rdquo; ls hello* hello_america.txt hello_world.txt  Select Files Starting With &amp;ldquo;g&amp;rdquo; or &amp;ldquo;i&amp;rdquo; ls [gi]* goodbye_america_2.txt goodbye_america.txt  Select All Markdown Files ls *.</description>
     </item>
     
     <item>
@@ -1330,7 +1330,7 @@ Create Code That Will Produce Error ls a_fake_directory/ ls: a_fake_directory/: 
       
       <guid>https://chrisalbon.com/linux/inputs_and_outputs/sort_rows/</guid>
       <description>The sort command reorganizes lines in a text file or standard output (technically the same thing) so they are arranged numerically and alphabetically.
-Create Example File With List Of Names echo &amp;#39;Luca Gartside&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Reule Smyth&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Crurnirk Steelflow&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Uli Pinetotem&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Lai Zhi Lightdream&amp;#39; &amp;gt;&amp;gt; adventurers.txt View File cat adventurers.txt Luca Gartside Reule Smyth Spencer Smit Crurnirk Steelflow Uli Pinetotem Lai Zhi Lightdream  Sort List Of Names And Write To New File sort adventurers.</description>
+Create Example File With List Of Names echo &amp;#39;Luca Gartside&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Reule Smyth&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Crurnirk Steelflow&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Uli Pinetotem&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Lai Zhi Lightdream&amp;#39; &amp;gt;&amp;gt; adventurers.txt View File cat adventurers.txt Luca Gartside Reule Smyth Spencer Smit Crurnirk Steelflow Uli Pinetotem Lai Zhi Lightdream  Sort List Of Names And Write To New File sort adventurers.</description>
     </item>
     
     <item>
@@ -1474,7 +1474,7 @@ printenv SHELL=/bin/bash TERM=xterm-256color USER=chris LS_COLORS=rs=0:di=01;34:
       
       <guid>https://chrisalbon.com/linux/basics/view_first_and_last_parts_of_files/</guid>
       <description>The sort command reorganizes lines in a text file or standard output (technically the same thing) so they are arranged numerically and alphabetically.
-Create Example File With List Of Names echo &amp;#39;Luca Gartside&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Reule Smyth&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Crurnirk Steelflow&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Uli Pinetotem&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Ognem Dustsplitter&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Ebil Frugroll&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Gordon Humphrey&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Jermaine Randall&amp;#39; &amp;gt;&amp;gt; adventurers.txtecho &amp;#39;Eli Steele&amp;#39; &amp;gt;&amp;gt; adventurers.</description>
+Create Example File With List Of Names echo &amp;#39;Luca Gartside&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Reule Smyth&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Spencer Smit&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Crurnirk Steelflow&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Uli Pinetotem&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Ognem Dustsplitter&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Ebil Frugroll&amp;#39; &amp;gt;&amp;gt; adventurers.txt echo &amp;#39;Gordon Humphrey&amp;#39; &amp;gt;&amp;gt; adventurers.</description>
     </item>
     
     <item>
